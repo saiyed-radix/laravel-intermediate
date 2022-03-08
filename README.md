@@ -115,7 +115,7 @@ updated at
 
 **Exercise:**
 
-**Create rest API for Companies and Employees to fetch the data **
+**Create rest API for Companies and Employees to fetch the data**
 
 
 **The employees and company will be add/edit/delete using APIs**
