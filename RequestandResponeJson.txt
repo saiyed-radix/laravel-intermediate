@@ -1,5 +1,7 @@
 =============================== Company ========================
 
+---Add Company--
+
 Link : domain.com/api/createCompany
 Method : POST
 Request : { 
@@ -12,6 +14,7 @@ Response : {
 	"success" : "Company is successfully saved"
 }
 
+---Edit Company--
 
 Link : domain.com/api/editCompany/1
 Method : POST
@@ -25,6 +28,7 @@ Response : {
 	"success" : "Company is successfully updated"
 }
 
+---Get Company--
 
 Link : domain.com/api/getAllCompany
 Method : GET
@@ -34,21 +38,23 @@ Response : [
 	"email" : "test@radixweb.com",
 	"logo" : link of logo
 	"website" : "radixweb.com",
-	"create_date" : "2021-03-05 10:03:12"
+	"created_date" : "2021-03-05 10:03:12"
 },
 	"name" : "TCS",
 	"email" : "test@TCS.com",
 	"logo" : link of logo
 	"website" : "TCS.com",
-	"create_date" : "2021-03-05 10:03:12"
+	"created_date" : "2021-03-05 10:03:12"
 {
 	"name" : "wipro",
 	"email" : "test@wipro.com",
 	"logo" : link of logo
 	"website" : "wipro.com",
-	"create_date" : "2021-03-05 10:03:12"		
+	"created_date" : "2021-03-05 10:03:12"		
 }
 ]
+
+---Delete Company--
 
 Link : domain.com/api/deleteCompany/1
 Method : DELETE
@@ -58,29 +64,33 @@ Response : {
 
 ========================== Employees ============================
 
+-- Add Employee --
+
 Link : domain.com/api/createEmployee
 Method : POST
 Request : { 
 	"first_name" : "Gajendra",
 	"last_name" : "Patel",
-	"comoany_name" : Company ID,
+	"company_name" : Company ID,
 }
 Response : {
 	"success" : "Employee is successfully saved"
 }
 
+-- Edit Employee --
 
 Link : domain.com/api/editEmployee/1
 Method : POST
 Request : { 
 	"first_name" : "Gajendra",
 	"last_name" : "_Patel",
-	"comoany_name" : Company ID,
+	"company_name" : Company ID,
 }
 Response : {
 	"success" : "Employee is successfully updated"
 }
 
+-- Get Employee --
 
 Link : domain.com/api/getAllEmployee
 Method : GET
@@ -89,31 +99,33 @@ Response : [
 		"first_name" : "Gajendra",
 		"last_name" : "_patel",
 		"company_name" : "compay name",
-		"create_date" : "2021-03-05 10:03:12"
+		"created_date" : "2021-03-05 10:03:12"
 	},
 		"first_name" : "Jay",
 		"last_name" : "_patel",
 		"company_name" : "compay name",
-		"create_date" : "2021-03-05 10:03:12"
+		"created_date" : "2021-03-05 10:03:12"
 	{
 		"first_name" : "Vivek",
 		"last_name" : "_patel",
 		"company_name" : "compay name",
-		"create_date" : "2021-03-05 10:03:12"		
+		"created_date" : "2021-03-05 10:03:12"		
 	},
 	{
 		"first_name" : "Mitul",
 		"last_name" : "_patel",
 		"company_name" : "compay name",
-		"create_date" : "2021-03-05 10:03:12"	
+		"created_date" : "2021-03-05 10:03:12"	
 	},
 	{
 		"first_name" : "Om",
 		"last_name" : "_patel",
 		"company_name" : "compay name",
-		"create_date" : "2021-03-05 10:03:12"
+		"created_date" : "2021-03-05 10:03:12"
 	}
 ]
+
+-- delete Employee --
 
 Link : domain.com/api/deleteEmployee/1
 Method : DELETE
