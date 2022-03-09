@@ -121,6 +121,8 @@ create_date (datetime)
 
 Please check attached file for more details **RequestandResponeJson.txt**
 
+**Link :**  https://github.com/saiyed-radix/laravel-intermediate/blob/main/RequestandResponeJson.txt
+
 **The employees and company will be add/edit/delete using APIs**
 
 
