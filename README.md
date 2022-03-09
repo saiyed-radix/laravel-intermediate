@@ -96,9 +96,9 @@ logo (minimum 100×100),
 
 website, 
 
-update_date (timestamp)
+updated_date (timestamp)
 
-create_date (datetime)
+created_date (datetime)
 
 
 **Employees would have below fields:**
@@ -109,9 +109,9 @@ last name (required),
 
 Company (foreign key to Companies), 
 
-update_date (timestamp)
+updated_date (timestamp)
 
-create_date (datetime)
+created_date (datetime)
 
 
 
