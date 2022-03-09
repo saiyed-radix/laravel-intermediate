@@ -96,9 +96,10 @@ logo (minimum 100×100),
 
 website, 
 
-created at, 
+update_date (timestamp)
 
-updated at
+create_date (datetime)
+
 
 **Employees would have below fields:**
 
@@ -108,15 +109,17 @@ last name (required),
 
 Company (foreign key to Companies), 
 
-created at, 
+update_date (timestamp)
 
-updated at	
+create_date (datetime)
+
 
 
 **Exercise:**
 
 **Create rest API for Companies and Employees to fetch the data**
 
+Please check attached file for more details **RequestandResponeJson.txt**
 
 **The employees and company will be add/edit/delete using APIs**
 
